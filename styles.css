@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.destaque {
+    font-weight: bold;
+    color: #002b5c;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Menu de Navegação */
+nav {
+    background: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a.ativo,
+nav ul li a:hover {
+    background: #002b5c;
+    padding: 10px;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.coluna {
+    width: 30%;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 14px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.menu-inferior ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.menu-inferior ul li {
+    display: inline;
+}
+
+.menu-inferior ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.marca {
+    background: #ccc;
+    width: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: bold;
+}
